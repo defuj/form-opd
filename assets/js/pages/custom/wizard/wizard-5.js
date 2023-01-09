@@ -93,27 +93,7 @@ var KTWizard5 = function () {
 			_formEl,
 			{
 				fields: {
-					firstname: {
-						validators: {
-							notEmpty: {
-								message: 'First name is required'
-							}
-						}
-					},
-					lastname: {
-						validators: {
-							notEmpty: {
-								message: 'Last name is required'
-							}
-						}
-					},
-					phone: {
-						validators: {
-							notEmpty: {
-								message: 'Phone is required'
-							}
-						}
-					}
+
 				},
 				plugins: {
 					trigger: new FormValidation.plugins.Trigger(),
@@ -131,48 +111,7 @@ var KTWizard5 = function () {
 			_formEl,
 			{
 				fields: {
-					address1: {
-						validators: {
-							notEmpty: {
-								message: 'Address is required'
-							}
-						}
-					},
-					address2: {
-						validators: {
-							notEmpty: {
-								message: 'Address is required'
-							}
-						}
-					},
-					postcode: {
-						validators: {
-							notEmpty: {
-								message: 'Postcode is required'
-							}
-						}
-					},
-					city: {
-						validators: {
-							notEmpty: {
-								message: 'City is required'
-							}
-						}
-					},
-					state: {
-						validators: {
-							notEmpty: {
-								message: 'State is required'
-							}
-						}
-					},
-					country: {
-						validators: {
-							notEmpty: {
-								message: 'Country is required'
-							}
-						}
-					}
+
 				},
 				plugins: {
 					trigger: new FormValidation.plugins.Trigger(),
