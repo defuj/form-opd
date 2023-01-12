@@ -916,12 +916,11 @@
                                                         </select>
                                                     </div>
                                                     <!--end::Form Group-->
-
                                                     <table width="100%">
                                                         <tr>
                                                             <th rowspan="3" width="10">No.</th>
                                                             <th rowspan="3">Tujuan/Sasaran Strategis/Program</th>
-                                                            <th rowspan="3">Indikator Kinerja</th>
+                                                            <th width="120" rowspan="3">Indikator Kinerja</th>
                                                             <th colspan="3">Risiko</th>
                                                             <th colspan="2">Sebab</th>
                                                             <th rowspan="3">C/UC</th>
@@ -929,7 +928,7 @@
                                                         </tr>
                                                         <tr>
                                                             <th rowspan="2">Uraian</th>
-                                                            <th>Kode</th>
+                                                            <th width="100">Kode</th>
                                                             <th rowspan="2">Pemilik</th>
                                                             <th rowspan="2">Uraian</th>
                                                             <th rowspan="2">Sumber</th>
@@ -955,11 +954,31 @@
 
                                                         <tr>
                                                             <td>1</td>
-                                                            <td>b</td>
-                                                            <td>c</td>
-                                                            <td>d</td>
-                                                            <td>e</td>
-                                                            <td>f</td>
+                                                            <td>
+                                                                Bla bla bla bla bla bla
+                                                            </td>
+                                                            <td><input type="text"
+                                                                    class="form-control h-auto p-5 border-0 rounded-lg font-size-h6"
+                                                                    name="risk_code" placeholder="Indikator" value="" />
+                                                            </td>
+                                                            <td>
+                                                                <div class="form-group mb-0">
+                                                                    <textarea class="form-control w-100"
+                                                                        placeholder="Ketikan Uraian"
+                                                                        rows="3"></textarea>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <input type="text"
+                                                                    class="form-control h-auto p-5 border-0 rounded-lg font-size-h6"
+                                                                    name="risk_code" placeholder="Kode" value="" />
+                                                            </td>
+                                                            <td>
+                                                                <input type="text"
+                                                                    class="form-control h-auto p-5 border-0 rounded-lg font-size-h6"
+                                                                    name="risk_owner" placeholder="Pemilik Risiko"
+                                                                    value="" />
+                                                            </td>
                                                             <td>
                                                                 <select title="Pilih Sebab Risiko" name="sebab_risiko"
                                                                     class="form-control h-auto p-5 border-0 rounded-lg font-size-h6">
@@ -979,7 +998,13 @@
                                                                     <option>Internal</option>
                                                                 </select>
                                                             </td>
-                                                            <td>i</td>
+                                                            <td>
+                                                                <select title="Pilih" name="sumber"
+                                                                    class="form-control h-auto p-5 border-0 rounded-lg font-size-h6">
+                                                                    <option>C</option>
+                                                                    <option>UC</option>
+                                                                </select>
+                                                            </td>
                                                             <td>
                                                                 <select title="Pilih Dampak Risiko" name="dampak_risiko"
                                                                     class="form-control h-auto p-5 border-0 rounded-lg font-size-h6">
