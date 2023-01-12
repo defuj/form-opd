@@ -12,7 +12,7 @@ var KTWizard5 = function () {
 	var _initWizard = function () {
 		// Initialize form wizard
 		_wizardObj = new KTWizard(_wizardEl, {
-			startStep: 8, // initial active step number
+			startStep: 10, // initial active step number
 			clickableSteps: true  // allow step clicking
 		});
 
